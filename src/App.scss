@@ -1,0 +1,84 @@
+.game-container {
+	width: 800px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+}
+
+.control-panel {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	padding: 15px;
+	background: #f5f5f5;
+	border-radius: 10px;
+
+	.duck-control {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		width: 140px;
+
+		p {
+			margin: 0 0 8px;
+		}
+
+		div {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 18px;
+		}
+
+		button {
+			width: 30px;
+			height: 30px;
+			border: none;
+			background: #007bff;
+			color: white;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	}
+
+	.start-button {
+		padding: 10px 20px;
+		background: #28a745;
+		color: white;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.timer {
+		font-size: 18px;
+		font-weight: bold;
+	}
+}
+
+.game-area {
+	position: relative;
+	margin: 0 auto;
+	border: 1px solid grey;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.game-canvas {
+	display: block;
+	cursor: none;
+}
+
+.start-screen,
+.completion-screen {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(255, 255, 255, 0.95);
+	padding: 30px;
+	border-radius: 15px;
+	text-align: center;
+	z-index: 1000;
+	cursor: none;
+}
