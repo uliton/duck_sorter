@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/duck_sorter/static/css/main.f936db30.css",
+    "main.js": "/duck_sorter/static/js/main.3bcffe36.js",
+    "index.html": "/duck_sorter/index.html",
+    "main.f936db30.css.map": "/duck_sorter/static/css/main.f936db30.css.map",
+    "main.3bcffe36.js.map": "/duck_sorter/static/js/main.3bcffe36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f936db30.css",
+    "static/js/main.3bcffe36.js"
+  ]
+}
