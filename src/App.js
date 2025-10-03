@@ -202,7 +202,7 @@ function App() {
 						<ul>
 							Зараз буде:
 							<li>качок кожного кольору - {ducksCount}</li>
-							<li>різних кольорів - {colorsCount}</li>
+							<li>різних кольорів для качок - {colorsCount}</li>
 							<p>Всього качок - {ducksCount * colorsCount}</p>
 						</ul>
 					</div>
