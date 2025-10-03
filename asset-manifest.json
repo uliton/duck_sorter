@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/duck_sorter/static/css/main.987abecc.css",
-    "main.js": "/duck_sorter/static/js/main.1518b196.js",
+    "main.css": "/duck_sorter/static/css/main.2d69b01d.css",
+    "main.js": "/duck_sorter/static/js/main.b0a8c689.js",
     "index.html": "/duck_sorter/index.html",
-    "main.987abecc.css.map": "/duck_sorter/static/css/main.987abecc.css.map",
-    "main.1518b196.js.map": "/duck_sorter/static/js/main.1518b196.js.map"
+    "main.2d69b01d.css.map": "/duck_sorter/static/css/main.2d69b01d.css.map",
+    "main.b0a8c689.js.map": "/duck_sorter/static/js/main.b0a8c689.js.map"
   },
   "entrypoints": [
-    "static/css/main.987abecc.css",
-    "static/js/main.1518b196.js"
+    "static/css/main.2d69b01d.css",
+    "static/js/main.b0a8c689.js"
   ]
 }
